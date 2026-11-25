@@ -1,0 +1,219 @@
+{
+  "topMenu": [
+    {
+      "label": "होम",
+      "path": "/",
+      "icon": "Home"
+    },
+    {
+      "label": "वेब स्टोरीज़",
+      "path": "/webstory",
+      "icon": "Image"
+    },
+    {
+      "label": "ईपेपर",
+      "path": "/epaper",
+      "icon": "Newspaper"
+    },
+    {
+      "label": "सर्च",
+      "path": "/search",
+      "icon": "Search"
+    }
+  ],
+  "mainMenu": [
+    {
+      "label": "होम",
+      "path": "/",
+      "icon": "Home"
+    },
+    {
+      "label": "टॉप न्यूज",
+      "path": "/category/top-news",
+      "icon": "Star",
+      "highlight": "text-yellow-500"
+    },
+    {
+      "label": "भारत",
+      "path": "/category/india",
+      "icon": "Flag",
+      "highlight": "text-red-600"
+    },
+    {
+      "label": "उत्तर प्रदेश",
+      "path": "/category/uttar-pradesh",
+      "icon": "Building2",
+      "highlight": "text-green-600",
+      "hasDropdown": true,
+      "dropdownItems": [
+        {
+          "label": "उत्तर प्रदेश (मुख्य)",
+          "path": "/category/uttar-pradesh"
+        },
+        {
+          "label": "बलिया",
+          "path": "/category/uttar-pradesh?district=बलिया"
+        },
+        {
+          "label": "लखनऊ",
+          "path": "/category/uttar-pradesh?district=लखनऊ"
+        },
+        {
+          "label": "वाराणसी",
+          "path": "/category/uttar-pradesh?district=वाराणसी"
+        },
+        {
+          "label": "कानपुर",
+          "path": "/category/uttar-pradesh?district=कानपुर"
+        },
+        {
+          "label": "प्रयागराज",
+          "path": "/category/uttar-pradesh?district=प्रयागराज"
+        },
+        {
+          "label": "गोरखपुर",
+          "path": "/category/uttar-pradesh?district=गोरखपुर"
+        },
+        {
+          "label": "आजमगढ़",
+          "path": "/category/uttar-pradesh?district=आजमगढ़"
+        },
+        {
+          "label": "बलरामपुर",
+          "path": "/category/uttar-pradesh?district=बलरामपुर"
+        },
+        {
+          "label": "आगरा",
+          "path": "/category/uttar-pradesh?district=आगरा"
+        },
+        {
+          "label": "बरेली",
+          "path": "/category/uttar-pradesh?district=बरेली"
+        },
+        {
+          "label": "गाजियाबाद",
+          "path": "/category/uttar-pradesh?district=गाजियाबाद"
+        },
+        {
+          "label": "सोनभद्र",
+          "path": "/category/uttar-pradesh?district=सोनभद्र"
+        }
+      ]
+    },
+    {
+      "label": "उत्तराखंड",
+      "path": "/category/uttarakhand",
+      "icon": "Mountain",
+      "highlight": "text-green-600",
+      "hasDropdown": true,
+      "dropdownItems": [
+        {
+          "label": "उत्तराखंड (मुख्य)",
+          "path": "/category/uttarakhand"
+        },
+        {
+          "label": "देहरादून",
+          "path": "/category/uttarakhand?district=देहरादून"
+        },
+        {
+          "label": "हरिद्वार",
+          "path": "/category/uttarakhand?district=हरिद्वार"
+        },
+        {
+          "label": "नैनीताल",
+          "path": "/category/uttarakhand?district=नैनीताल"
+        },
+        {
+          "label": "हल्द्वानी",
+          "path": "/category/uttarakhand?district=हल्द्वानी"
+        }
+      ]
+    },
+    {
+      "label": "विदेश",
+      "path": "/category/international",
+      "icon": "Globe",
+      "highlight": "text-blue-600"
+    },
+    {
+      "label": "मनोरंजन",
+      "path": "/category/entertainment",
+      "icon": "Film",
+      "highlight": "text-pink-600"
+    },
+    {
+      "label": "बिजनेस",
+      "path": "/category/business",
+      "icon": "TrendingUp",
+      "highlight": "text-cyan-600"
+    },
+    {
+      "label": "खेल",
+      "path": "/category/sports",
+      "icon": "Trophy",
+      "highlight": "text-orange-500"
+    },
+    {
+      "label": "टेक्नोलॉजी",
+      "path": "/category/tech",
+      "icon": "Cpu",
+      "highlight": "text-purple-600"
+    },
+    {
+      "label": "राशिफल",
+      "path": "/category/rashifal",
+      "icon": "Sun",
+      "highlight": "text-yellow-600"
+    },
+    {
+      "label": "संपादकीय",
+      "path": "/category/editorial",
+      "icon": "BookOpen",
+      "highlight": "text-teal-600"
+    },
+    {
+      "label": "धर्म संस्कृति",
+      "path": "/category/religion-culture",
+      "icon": "Sparkles",
+      "highlight": "text-red-500"
+    }
+  ],
+  "footerPolicyLinks": [
+    {
+      "label": "Ownership and Funding",
+      "path": "/policy/ownership-and-funding"
+    },
+    {
+      "label": "Ethics Policy",
+      "path": "/policy/ethics-policy"
+    },
+    {
+      "label": "Fact Checking Policy",
+      "path": "/policy/fact-checking-policy"
+    },
+    {
+      "label": "GDPR Policy",
+      "path": "/policy/gdpr"
+    },
+    {
+      "label": "Disclaimer",
+      "path": "/policy/disclaimer"
+    },
+    {
+      "label": "Privacy Policy",
+      "path": "/policy/privacy-policy"
+    },
+    {
+      "label": "Terms and Conditions",
+      "path": "/policy/terms-and-conditions"
+    },
+    {
+      "label": "About Us",
+      "path": "/policy/about-us"
+    },
+    {
+      "label": "Contact Us",
+      "path": "/policy/contact-us"
+    }
+  ]
+}

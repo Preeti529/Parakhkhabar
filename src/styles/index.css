@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Mukta', 'Noto Sans Devanagari', 'Segoe UI', -apple-system, sans-serif;
+    color: #212529;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Mukta', 'Noto Sans Devanagari', 'Segoe UI', sans-serif;
+    color: #1a1a1a;
+    line-height: 1.35;
+  }
+
+  a {
+    transition: color 0.15s ease-in-out;
+  }
+}
+
+/* Authentic Hindi Newspaper Styling inspired by Parakh Khabar & Dainik Bhaskar */
+.site-container {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* Widget Header Bar */
+.newspaper-section-header {
+  display: flex;
+  align-items: center;
+  border-top: 8px solid #eaeaea;
+  padding: 10px 0 10px;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #e01b24;
+}
+
+.newspaper-section-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #1f1f1f;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-icon-badge {
+  background-color: #6322cf;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Category Post Label Badge */
+.post-cat-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  color: #ffffff;
+  background-color: #e01b24;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.post-cat-badge:hover {
+  background-color: #b7141b;
+}
+
+/* Breaking News Ticker Animation */
+@keyframes ticker {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.ticker-wrap {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ticker-move {
+  display: inline-block;
+  white-space: nowrap;
+  animation: ticker 35s linear infinite;
+}
+
+.ticker-move:hover {
+  animation-play-state: paused;
+}
+
+/* Horizontal scrollbar styling for mobile navigation */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

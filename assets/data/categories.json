@@ -1,0 +1,135 @@
+[
+  {
+    "id": "all",
+    "name": "होम",
+    "slug": "",
+    "icon": "Home",
+    "count": 24
+  },
+  {
+    "id": "top-news",
+    "name": "टॉप न्यूज",
+    "slug": "top-news",
+    "icon": "Star",
+    "color": "#ffc107",
+    "count": 8
+  },
+  {
+    "id": "india",
+    "name": "भारत",
+    "slug": "india",
+    "icon": "Flag",
+    "color": "#e01b24",
+    "count": 5
+  },
+  {
+    "id": "uttar-pradesh",
+    "name": "उत्तर प्रदेश",
+    "slug": "uttar-pradesh",
+    "icon": "Building2",
+    "color": "#28a745",
+    "count": 4,
+    "districts": [
+      "बलिया",
+      "आजमगढ़",
+      "आगरा",
+      "मऊ",
+      "गाजीपुर",
+      "कानपुर",
+      "वाराणसी",
+      "प्रयागराज",
+      "सुल्तानपुर",
+      "अलीगढ़",
+      "मथुरा",
+      "गोरखपुर",
+      "लखनऊ",
+      "मुरादाबाद",
+      "सोनभद्र",
+      "गाजियाबाद",
+      "इटावा",
+      "बरेली",
+      "बलरामपुर"
+    ]
+  },
+  {
+    "id": "uttarakhand",
+    "name": "उत्तराखंड",
+    "slug": "uttarakhand",
+    "icon": "Mountain",
+    "color": "#28a745",
+    "count": 4,
+    "districts": [
+      "देहरादून",
+      "हरिद्वार",
+      "नैनीताल",
+      "पिथौरागढ़",
+      "चमोली",
+      "चंपावत",
+      "हल्द्वानी"
+    ]
+  },
+  {
+    "id": "international",
+    "name": "विदेश",
+    "slug": "international",
+    "icon": "Globe",
+    "color": "#007ab3",
+    "count": 2
+  },
+  {
+    "id": "entertainment",
+    "name": "मनोरंजन",
+    "slug": "entertainment",
+    "icon": "Film",
+    "color": "#e83e8c",
+    "count": 4
+  },
+  {
+    "id": "business",
+    "name": "बिजनेस",
+    "slug": "business",
+    "icon": "TrendingUp",
+    "color": "#17a2b8",
+    "count": 1
+  },
+  {
+    "id": "sports",
+    "name": "खेल",
+    "slug": "sports",
+    "icon": "Trophy",
+    "color": "#fd7e14",
+    "count": 4
+  },
+  {
+    "id": "tech",
+    "name": "टेक्नोलॉजी",
+    "slug": "tech",
+    "icon": "Cpu",
+    "color": "#6f42c1",
+    "count": 3
+  },
+  {
+    "id": "rashifal",
+    "name": "राशिफल",
+    "slug": "rashifal",
+    "icon": "Sun",
+    "color": "#ffc107",
+    "count": 1
+  },
+  {
+    "id": "editorial",
+    "name": "संपादकीय",
+    "slug": "editorial",
+    "icon": "BookOpen",
+    "color": "#20c997",
+    "count": 2
+  },
+  {
+    "id": "religion-culture",
+    "name": "धर्म संस्कृति",
+    "slug": "religion-culture",
+    "icon": "Sparkles",
+    "color": "#e01b24",
+    "count": 3
+  }
+]
